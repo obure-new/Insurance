@@ -1,6 +1,8 @@
-body{
+*{
   margin: 0;
   padding: 0;
+}
+body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f9f9f9;
   color: #333;
@@ -98,19 +100,4 @@ body{
 
 .dropdown:hover .dropdown-menu {
   display: block;
-}
-.login-button{
-  background-color: #800000;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  color: #fff;
-  font-weight: 500;
-  font-size: 15px;
-  height: 30px;
-}
-.login-button:hover{
-  background-color: white;
-  color: black;
-  transition: 0.7s;
 }
