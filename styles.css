@@ -8,7 +8,7 @@ body{
   font-size: 16px;
 }
 .navbar{
-  background-color: #800000; 
+  background-color: #ffc107; 
   padding: 0.5rem 1.5rem;
   position: sticky;
   top: 0;
@@ -34,13 +34,13 @@ body{
 
 .main-details li a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-weight: 500;
   transition: color 0.3s ease;
 }
 
 .main-details li a:hover, .main-details li a.active {
-  color: #ffc107;
+  color: #800000;
 }
 .homecontent {
   position: relative;
@@ -92,12 +92,25 @@ body{
 }
 
 .dropdown-menu li a:hover {
-  background-color: #006fc7;
+  background-color: #800000;
   border-radius: 4px;
 }
 
-/* Show the dropdown on hover */
 .dropdown:hover .dropdown-menu {
   display: block;
 }
-
+.login-button{
+  background-color: #800000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+  height: 30px;
+}
+.login-button:hover{
+  background-color: white;
+  color: black;
+  transition: 0.7s;
+}
